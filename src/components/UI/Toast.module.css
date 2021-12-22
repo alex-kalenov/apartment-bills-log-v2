@@ -1,0 +1,37 @@
+.toast {
+  position: fixed;
+  bottom: 0;
+  right: 3%;
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 7px;
+  transition: transform 0.3s;
+  transform: translate(0%, 100%);
+  width: 260px;
+  align-items: center;
+}
+
+.succeed {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
+
+.show {
+  transform: translate(0%, -20%);
+}
+
+@media screen and (max-width: 575px) {
+  .toast {
+    right: unset;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+
+  .show {
+    transform: translate(-50%, -20%);
+  }
+}

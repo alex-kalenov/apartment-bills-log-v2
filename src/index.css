@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  /* make it look decent enough */
+  background: white;
+  color: black;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+.row,
+p {
+  margin: 0;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.error-message {
+  padding: 0 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.error-highlight {
+  color: red;
+}
+
+@media screen and (max-width: 767px) {
+  font-size: 18px;
+}

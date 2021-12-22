@@ -1,2 +1,2 @@
-# apartment-bills-log-v2
+# apartment-bills-log
 Created with CodeSandbox

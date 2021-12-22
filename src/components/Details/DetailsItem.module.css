@@ -1,0 +1,38 @@
+.bills-item {
+  font-size: 18px;
+}
+
+.bills-item span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bills-item form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bills-item form div:last-child {
+  margin: 0;
+}
+
+.bills-item form input {
+  width: 100px;
+}
+
+.bills-item form button {
+  border: none;
+  transition: background-color 0.3s;
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  padding: 3px 10px;
+}
+
+.bills-item form button:hover {
+  background-color: #db7100;
+}

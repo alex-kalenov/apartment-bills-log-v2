@@ -1,0 +1,12 @@
+.workflow {
+  margin-left: 100px;
+  /* position: relative;
+  z-index: 2; */
+}
+
+@media screen and (max-width: 575px) {
+  .workflow {
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+}
