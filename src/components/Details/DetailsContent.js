@@ -23,7 +23,8 @@ const DetailsContent = (props) => {
   if (
     props.category === "rent" ||
     props.category === "rubbish" ||
-    props.category === "heating"
+    props.category === "heating" ||
+    props.category === "gas_dist"
   )
     noValue = true;
 
