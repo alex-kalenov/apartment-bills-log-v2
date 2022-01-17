@@ -46,8 +46,11 @@ export default function App() {
   } else {
     switchContent = (
       <Switch>
-        <Route>
+        <Route path="/login" exact>
           <LoginPage />
+        </Route>
+        <Route>
+          <Redirect to="/login" />
         </Route>
       </Switch>
     );
