@@ -16,7 +16,11 @@ const Navigation = () => {
     return (
       <li key={item.id}>
         <Link to={"/details?category=" + item.id} onClick={linkClickHandler}>
-          {item.linkLabel}
+          {item.linkLabel}{" "}
+          <i
+            className={item.icon}
+            style={{ color: item.iconColor, marginLeft: 5 }}
+          ></i>
         </Link>
       </li>
     );

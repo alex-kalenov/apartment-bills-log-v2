@@ -2,22 +2,52 @@ export const categories = [
   {
     id: "gas",
     linkLabel: "Газ",
-    detailLabel: "газу"
+    detailLabel: "газу",
+    icon: "fas fa-burn",
+    iconColor: "DarkOrange"
   },
   {
     id: "gas_dist",
     linkLabel: "Газораспределение",
-    detailLabel: "газораспределению"
+    detailLabel: "газораспределению",
+    icon: "fas fa-arrows-alt",
+    iconColor: "DarkOrange"
   },
-  { id: "water", linkLabel: "Вода", detailLabel: "воде" },
+  {
+    id: "water",
+    linkLabel: "Вода",
+    detailLabel: "воде",
+    icon: "fas fa-tint",
+    iconColor: "DeepSkyBlue"
+  },
   {
     id: "electricity",
     linkLabel: "Электроэнергия",
-    detailLabel: "электроэнергии"
+    detailLabel: "электроэнергии",
+    icon: "fas fa-bolt",
+    iconColor: "yellow"
   },
-  { id: "rubbish", linkLabel: "Вывоз мусора", detailLabel: "вывозу мусора" },
-  { id: "rent", linkLabel: "Квартплата", detailLabel: "квартплате" },
-  { id: "heating", linkLabel: "Отопление", detailLabel: "отоплению" }
+  {
+    id: "rubbish",
+    linkLabel: "Вывоз мусора",
+    detailLabel: "вывозу мусора",
+    icon: "fas fa-trash",
+    iconColor: "LightSlateGrey"
+  },
+  {
+    id: "rent",
+    linkLabel: "Квартплата",
+    detailLabel: "квартплате",
+    icon: "fas fa-home",
+    iconColor: "SaddleBrown"
+  },
+  {
+    id: "heating",
+    linkLabel: "Отопление",
+    detailLabel: "отоплению",
+    icon: "fas fa-temperature-high",
+    iconColor: "OrangeRed"
+  }
 ];
 
 export const months = [
