@@ -4,6 +4,11 @@ export const categories = [
     linkLabel: "Газ",
     detailLabel: "газу"
   },
+  {
+    id: "gas_dist",
+    linkLabel: "Газораспределение",
+    detailLabel: "газораспределению"
+  },
   { id: "water", linkLabel: "Вода", detailLabel: "воде" },
   {
     id: "electricity",
